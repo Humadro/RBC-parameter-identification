@@ -1,0 +1,177 @@
+# El Model de Cicles Reals (RBC) {#sec-rbc}
+
+En aquest capítol descrivim el model econòmic base. El model s'ha agafat de l'obra de referencia "Recursive Macroeconomic Theory" de Ljungqvist i Sargent, que és un text fonamental en macroeconomia moderna. 
+
+Aquest model és bàsic per entendre com funcionen els paràmetres principals i és el més senzill de tots els models DSGE.
+
+En essència, el model considera que els mercats funcionen en competència perfecta, no hi ha cap intervenció governamental ni friccions en els mercats financers, i que les famílies i les empreses maximitzen la seva utilitat i beneficis, respectivament.
+
+D'aquesta manera, el model es construeix a partir de les decisions de les famílies i les empreses, i com aquestes decisions interactuen en els mercats per determinar els preus i les quantitats d'equilibri.
+
+El model arriba a un equilibri d'estat estacionari, on les variables econòmiques fluctuen al voltant d'aquest punt a causa de xocs tecnològics. Aquestes fluctuacions són el que anomenem cicles econòmics reals, d'aquí el nom del model.
+
+
+## Les Empreses
+
+La producció de les empreses mitjançant treball i capital segueix la funció clàssica Cobb-Douglas:
+
+$$
+y_t = A_t k_t^\alpha n_t^{1-\alpha}
+$$ {#eq-production}
+
+Les empreses produeixen ($y_t$) a partir de capital ($k_t$) i treball ($n_t$), i la tecnologia ($A_t$) amplifica aquesta producció. El paràmetre $\alpha$ determina la importància relativa del capital en la producció.
+
+El model suposa que els mercats operen en competència perfecta, de manera que les empreses maximitzen els seus beneficis pagant als factors de producció el seu producte marginal. Això ens dóna les següents expressions per al salari real i el tipus d'interès:
+
+1.  **Salari real:** $w_t = (1-\alpha) \frac{y_t}{n_t}$
+2.  **Tipus d'interès:** $r^k_t = \alpha \frac{y_t}{k_t}$
+
+
+## Equilibri de Mercat
+
+Tot el que les empreses produeixen es consumeix o s'inverteix (buidatge de mercat):
+
+$$
+y_t = c_t + i_t
+$$ {#eq-resource}
+
+## Acumulació de Capital i Inversió
+
+Cal definir també com evoluciona la capacitat productiva de l'economia al llarg del temps. Aquesta és la part "dinàmica" del model: les decisions que prenem avui afecten les possibilitats de demà.
+
+L'equació que governa aquesta dinàmica és la **Llei de Moviment del Capital**:
+
+$$
+k_{t+1} = (1-\delta)k_t + i_t
+$$ {#eq-capital}
+
+- L'Estoc de Capital ($k_t$ i $k_{t+1}$)
+    El capital representa l'acumulació de béns físics (màquines, edificis, ordinadors) que s'utilitzen per produir. És una variable d'estoc, la qual cosa vol dir que es mesura en un moment concret del temps (al principi del període $t$).
+    El model assumeix que el capital estalviat avui no es pot fer servir immediatament. La inversió feta en $t$ es converteix en capital productiu en $t+1$. 
+
+- La Depreciació ($\delta$)
+    El paràmetre $\delta \in (0,1)$ és la **taxa de depreciació física**. Representa la pèrdua de valor i eficiència del capital a causa de l'ús, el pas del temps i l'obsolescència tecnològica.
+    Si una empresa no inverteix res ($i_t=0$), el seu capital no es manté constant, sinó que es redueix geomètricament a una taxa $\delta$.
+
+- La Inversió ($i_t$)
+    La inversió és la variable de flux. Representa la quantitat de producció actual ($y_t$) que no es consumeix, sinó que es destina a crear nou capital.
+
+    Fixem-nos que per fer créixer l'economia ($k_{t+1} > k_t$), la inversió bruta ($i_t$) ha de ser superior a la depreciació del capital existent ($\delta k_t$). Si $i_t = \delta k_t$, l'economia es troba en un estat estacionari on només es reposa el que es desprecia.
+
+En resum, l'equació (@eq-capital) és fonamental perquè és el mecanisme que permet a les famílies traslladar riquesa del present al futur. Sense capital ni inversió, no hi hauria manera d'estalviar per "suavitzar" el consum davant dels xocs.
+
+## Les Famílies
+
+Considerem una família representativa que valora dues coses: el consum ($c_t$) i l'oci.
+
+El temps total disponible és 1. Per tant, si la família treballa $n_t$ hores, el temps que li queda per descansar (oci) és $(1 - n_t)$.
+
+La funció d'utilitat que farem servir serà la logarítmica. Les funcions d'utilitat han de ser creixents i còncaves per garantir que tant el consum com l'oci tinguin rendiments decreixents. La funció d'utilitat és:
+
+$$
+\max \mathbb{E}_0 \sum_{t=0}^{\infty} \beta^t \left[ \ln(c_t) + \gamma \ln(1 - n_t) \right]
+$$ {#eq-utility}
+
+On:
+- $\beta$: Factor de descompte. Quant més valorem el consum present respecte al futur, més petit és $\beta$.
+- $\gamma$: Pes que li donem a l'oci respecte al consum.
+- $\ln(1-n_t)$: Utilitat de l'oci. Com més treballem, menys oci tenim i menys utilitat.
+
+La família té una restricció pressupostària: els seus ingressos (salaris i rendes del capital) han de cobrir el consum i la inversió neta:
+
+$$
+c_t + \underbrace{k_{t+1} - (1-\delta)k_t}_{\text{Inversió } i_t} = w_t n_t + r_t k_t
+$$ {#eq-budget}
+
+És a dir, les famílies guanyen diners treballant ($w_t n_t$) i invertint el seu capital ($r_t k_t$), i aquests diners els gasten en consumir ($c_t$) o en invertir per al futur ($i_t$).
+
+Aquest problema es resol fent l'operador lagrangià i obtenint les condicions d'optimalitat:
+
+$$
+\mathcal{L} = \sum_{t=0}^{\infty} \beta^t \left[ \ln(c_t) + \gamma \ln(1 - n_t) + \lambda_t (w_t n_t + r_t k_t - c_t - k_{t+1} + (1-\delta)k_t) \right]
+$$
+$$
+d\mathcal{L}/dc_t = 0 \Rightarrow \lambda_t = \frac{1}{c_t}
+$$
+$$
+d\mathcal{L}/dn_t = 0 \Rightarrow \frac{\gamma c_t}{1 - n_t} = w_t
+$$ {#eq-labor}
+
+$$
+d\mathcal{L}/dk_{t+1} = 0 \Rightarrow \lambda_t = \beta \lambda_{t+1} (r_{t+1} + 1 - \delta) \Rightarrow \frac{1}{c_t} = \beta \mathbb{E}_t \left[ \frac{r_{t+1} + 1 - \delta}{c_{t+1}} \right]
+$${#eq-euler}
+
+## El Xoc Tecnològic
+
+L'única font d'incertesa en el model és la tecnologia ($A_t$), que segueix un procés AR(1) en logaritmes:
+
+$$
+\ln A_t = (1-\rho)\ln A_{ss} + \rho \ln A_{t-1} + \epsilon_t
+$$ {#eq-shock}
+
+## Solució del Model i Estratègia d'Estimació
+
+El model RBC queda completament definit pel sistema d'equacions que hem derivat en les seccions anteriors. Formalment, un equilibri competitiu és una seqüència de variables que satisfà simultàniament:
+
+1.  L'**Equació d'Euler** (@eq-euler), que determina la dinàmica de consum i estalvi.
+2.  L'oferta de treball o equilibri intratemporal (@eq-labor).
+3.  La tecnologia de producció (@eq-production) i els preus dels factors.
+4.  La restricció de recursos (@eq-resource) i l'acumulació de capital (@eq-capital).
+5.  El procés exogen del xoc tecnològic (@eq-shock).
+
+### El Problema de les Funcions de Política
+
+A diferència d'un sistema d'equacions lineals simple, aquest model **no té una solució analítica tancada**. No podem aïllar $c_t$ o $n_t$ a l'esquerra de la igualtat només amb paper i llapis. Això es deu a dues raons:
+1.  **No linealitat:** L'equació d'Euler inclou termes com $1/c_t$, i la producció té exponents fraccionaris.
+2.  **Expectatives Racionals:** Les decisions d'avui depenen de les expectatives sobre el futur ($\mathbb{E}_t$), però el futur depèn de les decisions d'avui.
+
+Per "resoldre" el model, el que busquem són les anomenades **Funcions de Política** (Policy Functions). Aquestes funcions són regles de decisió que ens diuen què ha de fer l'agent donat l'estat de l'economia:
+
+$$
+c_t = \Psi_c(k_t, A_t)
+$$
+$$
+n_t = \Psi_n(k_t, A_t)
+$$
+
+On $(k_t, A_t)$ són les **variables d'estat** (el que ja tenim quan ens llevem al matí) i $(c_t, n_t)$ són les **variables de control** (el que decidim).
+
+Trobar la forma exacta d'aquestes funcions $\Psi(\cdot)$ és impossible analíticament. Per tant, hem d'utilitzar mètodes numèrics per aproximar-les. En aquest TFG compararem dos enfocaments radicalment diferents:
+
+## Resum del Model
+
+Per finalitzar la descripció teòrica, presentem un resum de totes les variables i paràmetres que conformen el model RBC. Aquesta classificació és fonamental per al procés d'estimació que es durà a terme en els següents capítols.
+
+### Paràmetres Estructurals ($\Theta$)
+
+Aquests són els valors constants que governen el comportament dels agents i la tecnologia. L'objectiu principal d'aquest treball serà estimar el vector $\Theta$ (o calibrar-ne una part).
+
+| Símbol | Descripció | Rang Teòric | Interpretació Econòmica |
+| :---: | :--- | :---: | :--- |
+| $\beta$ | Factor de descompte | $(0, 1)$ | Paciència (relacionat amb el tipus d'interès real d'estat estacionari). |
+| $\alpha$ | Elasticitat del capital | $(0, 1)$ | Participació del capital en la renda nacional (quota de beneficis). |
+| $\delta$ | Taxa de depreciació | $(0, 1)$ | Velocitat a la qual el capital físic es desgasta o es torna obsolet. |
+| $\gamma$ | Pes de l'oci | $\gamma > 0$ | Preferència relativa per l'oci enfront del consum. |
+| $\rho$ | Persistència del xoc | $(-1, 1)$ | Memòria del cicle econòmic (durada dels booms/recessions). |
+| $\sigma_\epsilon$ | Volatilitat del xoc | $\sigma_\epsilon > 0$ | Magnitud o desviació estàndard de les innovacions tecnològiques. |
+
+: Paràmetres Estructurals del Model RBC {#tbl-parametres}
+
+### Variables del Sistema
+
+Distingim entre les variables que prenen els agents com a donades (estat) i les que decideixen (control), així com aquelles que podem mesurar en la realitat.
+
+| Tipus | Símbol | Descripció | Observabilitat |
+| :--- | :---: | :--- | :--- |
+| **Variables d'Estat** | $k_t$ | Estoc de Capital (inici del període) | No observable (habitualment) |
+| | $A_t$ | Nivell de Tecnologia (TFP) | No observable (latent) |
+| **Variables de Control** | $c_t$ | Consum privat per càpita | Observable |
+| | $n_t$ | Hores treballades per càpita | Observable |
+| | $i_t$ | Inversió bruta per càpita | Observable |
+| **Variables de Preus** | $w_t$ | Salari real per hora | Observable |
+| | $r_t$ | Rendiment del capital (lloguer) | Observable (aprox. via tipus d'interès) |
+| **Variable Exògena** | $\epsilon_t$ | Innovació (Soroll blanc) | No observable |
+
+: Classificació de Variables del Model {#tbl-variables}
+
+Amb el model teòric completament especificat, el següent capítol abordarà el repte de com resoldre el sistema d'equacions no lineals i com estimar els paràmetres desconeguts ($\Theta$) a partir de les variables observables.

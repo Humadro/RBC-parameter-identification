@@ -1,0 +1,56 @@
+---
+title: "TFG"
+author: "Hugo"
+engine: julia
+lang: ca                  
+format:
+  html:
+    pdf-engine: xelatex   # <--- Aquí es donde se define
+    documentclass: scrreprt
+    number-sections: true
+
+---
+## Mini introducció
+
+La economia presenta reptes a l'hora d'estimar problemes complexos de creixement o de cicles econòmics. Es fan servir models matemàtics per intentar ajustar els fenòmens observats. Aquests models, per ser precisos, normalment han de ser molt complexos i incloure moltes variables i paràmetres. A més, els models són fortament no lineals i porten a una versemblança molt poc tractable, motiu pel qual s'han de buscar mètodes d'estimació alternatius a la MV clàssica.
+
+El tipus de models que s'estan tractant són els DSGE (Dynamic Stochastic General Equilibrium), que són models d'equilibri general dinàmics i estocàstics. Aquests models són àmpliament utilitzats en macroeconomia per analitzar l'impacte de polítiques econòmiques, xocs externs i altres factors sobre l'economia en el seu conjunt. 
+
+Aquest treball es centra en el model RBC (Real Business Cycle), que és un tipus específic de model DSGE. El model RBC intenta explicar les fluctuacions econòmiques a través de xocs tecnològics i altres factors reals, evitant l'ús de xocs monetaris o de demanda agregada i és el model més senzill dins dels models DSGE, tot i que se li poden fer diverses extensions per acurar el realisme tot i afegir complexitat.
+
+## Model RBC
+
+Els models RBC es basen en que hi ha un agent representatiu, que maximitza la seva utilitat al llarg del temps, subjecte a una restricció pressupostària. L'agent pren decisions sobre consum, treball i inversió en capital. 
+
+Doncs, l'agent maximitza la seva funció d'utilitat intertemporal:
+$$
+U = \sum_{t=0}^{\infty} \beta^t u(c_t, l_t)
+$$
+on $U$ és la utilitat total, $u(c_t, l_t)$ és la funció d'utilitat en el període $t$, $c_t$ és el consum en el període $t$, $l_t$ és el lleure en el període $t$, i $\beta$ és el factor de descompte.  La funció d'utilitat $u(c_t, l_t)$ és normalment creixent en el consum i decreixent en el lleure. 
+
+A més, el model inclou una funció de producció que relaciona els inputs (treball i capital) amb l'output (producció total de béns i serveis).
+
+
+En resum, el model te els següents paràmetres:
+- $\alpha$: elasticitat de la producció respecte al capital.
+- $\beta$: factor de descompte intertemporal.   
+- $\delta$: taxa de depreciació del capital.
+- $\rho$: paràmetre d'autocorrelació del xoc tecnològic.
+- $\sigma$: desviació estàndard del xoc tecnològic.
+
+Les principals variables del model són:
+- $c_t$: consum en el període $t$. 
+- $k_t$: capital en el període $t$.
+- $l_t$: lleure en el període $t$.
+- $y_t$: producció en el període $t$.
+- $A_t$: xoc tecnològic en el període $t$.  
+
+Normalment, de cara a trobar el valor dels paràmetres, es fa una calibració basada en les dades històriques de l'economia que s'està modelant.
+
+Gràcies a aquesta calibració, disposem d'informació a priori sobre els paràmetres del model, que ens ajudarà a l'hora d'estimar-los amb mètodes Bayesians.
+
+## Estimació Bayesiana
+
+L'estimació Bayesiana és un mètode estadístic que permet actualitzar les creences sobre els paràmetres d'un model a mesura que es disposa de nova informació o dades. A diferència dels mètodes clàssics, que es basen en la versemblança de les dades, l'estimació Bayesiana combina la versemblança amb una distribució a priori per obtenir una distribució a posteriori dels paràmetres.
+
+

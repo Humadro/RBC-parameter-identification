@@ -1,0 +1,222 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Estimació de models DSGE",
+    "section": "",
+    "text": "1 1. Introducción",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#simulación-del-modelo",
+    "href": "index.html#simulación-del-modelo",
+    "title": "Estimació de models DSGE",
+    "section": "4.1 4.1 Simulación del modelo",
+    "text": "4.1 4.1 Simulación del modelo",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#estimación-bayesiana-de-los-parámetros",
+    "href": "index.html#estimación-bayesiana-de-los-parámetros",
+    "title": "Estimació de models DSGE",
+    "section": "4.2 4.2 Estimación bayesiana de los parámetros",
+    "text": "4.2 4.2 Estimación bayesiana de los parámetros",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#estimación-xxx-de-los-parámetros",
+    "href": "index.html#estimación-xxx-de-los-parámetros",
+    "title": "Estimació de models DSGE",
+    "section": "4.3 4.3 Estimación xxx de los parámetros",
+    "text": "4.3 4.3 Estimación xxx de los parámetros",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#obtención-de-los-datos",
+    "href": "index.html#obtención-de-los-datos",
+    "title": "Estimació de models DSGE",
+    "section": "5.1 5.1 Obtención de los datos",
+    "text": "5.1 5.1 Obtención de los datos",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#estimación-bayesiana-de-los-parámetros-1",
+    "href": "index.html#estimación-bayesiana-de-los-parámetros-1",
+    "title": "Estimació de models DSGE",
+    "section": "5.2 5.2 Estimación bayesiana de los parámetros",
+    "text": "5.2 5.2 Estimación bayesiana de los parámetros",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#estimación-xxx-de-los-parámetros-1",
+    "href": "index.html#estimación-xxx-de-los-parámetros-1",
+    "title": "Estimació de models DSGE",
+    "section": "5.3 5.3 Estimación xxx de los parámetros",
+    "text": "5.3 5.3 Estimación xxx de los parámetros",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html",
+    "href": "writing/02_model_rbc.html",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "",
+    "text": "3.1 Les Empreses\nEn aquest capítol descrivim el model econòmic base. El model s’ha agafat de l’obra de referencia “Recursive Macroeconomic Theory” de Ljungqvist i Sargent, que és un text fonamental en macroeconomia moderna.\nAquest model és bàsic per entendre com funcionen els paràmetres principals i és el més senzill de tots els models DSGE.\nEn essència, el model considera que els mercats funcionen en competència perfecta, no hi ha cap intervenció governamental ni friccions en els mercats financers, i que les famílies i les empreses maximitzen la seva utilitat i beneficis, respectivament.\nD’aquesta manera, el model es construeix a partir de les decisions de les famílies i les empreses, i com aquestes decisions interactuen en els mercats per determinar els preus i les quantitats d’equilibri.\nEl model arriba a un equilibri d’estat estacionari, on les variables econòmiques fluctuen al voltant d’aquest punt a causa de xocs tecnològics. Aquestes fluctuacions són el que anomenem cicles econòmics reals, d’aquí el nom del model.\nLa producció de les empreses mitjançant treball i capital segueix la funció clàssica Cobb-Douglas:\n\\[\ny_t = A_t k_t^\\alpha n_t^{1-\\alpha}\n\\tag{3.1}\\]\nLes empreses produeixen (\\(y_t\\)) a partir de capital (\\(k_t\\)) i treball (\\(n_t\\)), i la tecnologia (\\(A_t\\)) amplifica aquesta producció. El paràmetre \\(\\alpha\\) determina la importància relativa del capital en la producció.\nEl model suposa que els mercats operen en competència perfecta, de manera que les empreses maximitzen els seus beneficis pagant als factors de producció el seu producte marginal. Això ens dóna les següents expressions per al salari real i el tipus d’interès:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/99_referencias.html",
+    "href": "writing/99_referencias.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Maliar, Lilia, Serguei Maliar, and Pablo Winant. 2021. “Deep\nLearning for Solving Dynamic Economic Models.” Journal of\nMonetary Economics 122 (September): 76–101. https://doi.org/10.1016/j.jmoneco.2021.07.004.",
+    "crumbs": [
+      "Referencias"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#empreses",
+    "href": "writing/02_model_rbc.html#empreses",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.2 Empreses",
+    "text": "3.2 Empreses\nLes empreses són perfectament competitives i produeixen un bé final homogeni utilitzant capital (\\(K_t\\)) i treball (\\(N_t\\)) mitjançant una tecnologia Cobb-Douglas amb rendiments constants a escala:\n\\[\nY_t = A_t K_t^\\alpha N_t^{1-\\alpha}\n\\tag{3.4}\\]\nOn \\(\\alpha \\in (0,1)\\) és la participació del capital en la renda. Les condicions d’optimalitat de l’empresa igualen els preus dels factors als seus productes marginals:\n\\[\nw_t = (1-\\alpha) \\frac{Y_t}{N_t}\n\\tag{3.5}\\]\n\\[\nr_t = \\alpha \\frac{Y_t}{K_t}\n\\tag{3.6}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#mercats-i-acumulació",
+    "href": "writing/02_model_rbc.html#mercats-i-acumulació",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.3 Mercats i Acumulació",
+    "text": "3.3 Mercats i Acumulació\nEn equilibri general, tots els mercats es buiden. La producció total es destina al consum o a la inversió (restricció de recursos de l’economia):\n\\[\nY_t = C_t + I_t\n\\tag{3.7}\\]\nEl capital evoluciona segons la llei de moviment estàndard, on \\(\\delta\\) és la taxa de depreciació:\n\\[\nK_{t+1} = (1-\\delta)K_t + I_t\n\\tag{3.8}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#shocks-exògens",
+    "href": "writing/02_model_rbc.html#shocks-exògens",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.4 Shocks Exògens",
+    "text": "3.4 Shocks Exògens\nLa font de les fluctuacions en aquest model és la incertesa tecnològica. La Productivitat Total dels Factors (TFP), \\(A_t\\), segueix un procés estocàstic AR(1) en logaritmes:\n\\[\n\\ln A_t = (1-\\rho)\\ln A_{ss} + \\rho \\ln A_{t-1} + \\epsilon_t\n\\tag{3.9}\\]\nOn \\(\\epsilon_t \\sim \\mathcal{N}(0, \\sigma_\\epsilon^2)\\) és la innovació estructural (el xoc). Els paràmetres \\(\\rho\\) (persistència) i \\(\\sigma_\\epsilon\\) (volatilitat) són els paràmetres crítics que estimarem mitjançant mètodes Bayesians i de Deep Learning en els següents capítols.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#solució-del-model",
+    "href": "writing/02_model_rbc.html#solució-del-model",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.5 Solució del Model",
+    "text": "3.5 Solució del Model\nEl comportament dinàmic de l’economia es resumeix en l’Equació d’Euler, que s’obté combinant la decisió intertemporal de la família amb el retorn del capital. Amb utilitat logarítmica (\\(U'(C_t) = 1/C_t\\)), aquesta condició pren la forma:\n\\[\n\\frac{1}{C_t} = \\beta \\mathbb{E}_t \\left[ \\frac{1}{C_{t+1}} \\left( \\alpha \\frac{Y_{t+1}}{K_{t+1}} + 1 - \\delta \\right) \\right]\n\\tag{3.10}\\]\nAquesta equació estableix que la utilitat marginal de consumir una unitat avui ha de ser igual a la utilitat marginal esperada de consumir-la demà, ajustada pel rendiment net del capital.\nEl problema metodològic que aborda aquest TFG és que el sistema format per les equacions (Equation 3.4), (Equation 3.7), (Equation 3.8), (Equation 3.9) i (Equation 3.10) no té solució analítica tancada. Per tant, hem de recórrer a mètodes numèrics per aproximar les funcions de política \\(C_t = g(K_t, A_t)\\) abans de poder procedir a l’estimació dels paràmetres estructurals \\(\\Theta = \\{ \\alpha, \\beta, \\delta, \\rho, \\sigma_\\epsilon \\}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#les-empreses",
+    "href": "writing/02_model_rbc.html#les-empreses",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "",
+    "text": "Salari real: \\(w_t = (1-\\alpha) \\frac{y_t}{n_t}\\)\nTipus d’interès: \\(r^k_t = \\alpha \\frac{y_t}{k_t}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#mercats-i-capital",
+    "href": "writing/02_model_rbc.html#mercats-i-capital",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.3 Mercats i Capital",
+    "text": "3.3 Mercats i Capital\nPer tancar el model, necessitem dues condicions d’equilibri:\nPrimer, tot el que es produeix a l’economia s’ha de fer servir, ja sigui per consumir o per invertir (buidatge del mercat de béns):\n\\[\nY_t = C_t + I_t\n\\tag{3.7}\\]\nSegon, necessitem saber com evoluciona el capital d’un any a l’altre (llei de moviment del capital). El capital de demà (\\(K_{t+1}\\)) serà el que tenim avui (menys el que s’ha desgastat o depreciat, \\(\\delta\\)) més la nova inversió:\n\\[\nK_{t+1} = (1-\\delta)K_t + I_t\n\\tag{3.8}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#el-xoc-tecnològic",
+    "href": "writing/02_model_rbc.html#el-xoc-tecnològic",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.5 El Xoc Tecnològic",
+    "text": "3.5 El Xoc Tecnològic\nL’única font d’incertesa en el model és la tecnologia (\\(A_t\\)), que segueix un procés AR(1) en logaritmes:\n\\[\n\\ln A_t = (1-\\rho)\\ln A_{ss} + \\rho \\ln A_{t-1} + \\epsilon_t\n\\tag{3.8}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#solució-lequació-deuler",
+    "href": "writing/02_model_rbc.html#solució-lequació-deuler",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.5 Solució: L’Equació d’Euler",
+    "text": "3.5 Solució: L’Equació d’Euler\nL’equació clau que resumeix la dinàmica del model (i que haurem d’estimar) és l’Equació d’Euler. Ens diu que la pèrdua d’utilitat per estalviar un euro avui (\\(1/c_t\\)) ha de ser igual al guany esperat demà:\n\\[\n\\frac{1}{c_t} = \\beta \\mathbb{E}_t \\left[ \\frac{1}{c_{t+1}} (1 + r_{t+1} - \\delta) \\right]\n\\tag{3.8}\\]\nAquesta equació, juntament amb les definicions de \\(r_t\\) i la tecnologia, forma el sistema que resoldrem numèricament.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#equilibri-de-mercat",
+    "href": "writing/02_model_rbc.html#equilibri-de-mercat",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.2 Equilibri de Mercat",
+    "text": "3.2 Equilibri de Mercat\nTot el que les empreses produeixen es consumeix o s’inverteix (buidatge de mercat):\n\\[\ny_t = c_t + i_t\n\\tag{3.2}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#acumulació-de-capital-i-inversió",
+    "href": "writing/02_model_rbc.html#acumulació-de-capital-i-inversió",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.3 Acumulació de Capital i Inversió",
+    "text": "3.3 Acumulació de Capital i Inversió\nCal definir també com evoluciona la capacitat productiva de l’economia al llarg del temps. Aquesta és la part “dinàmica” del model: les decisions que prenem avui afecten les possibilitats de demà.\nL’equació que governa aquesta dinàmica és la Llei de Moviment del Capital:\n\\[\nk_{t+1} = (1-\\delta)k_t + i_t\n\\tag{3.3}\\]\n\nL’Estoc de Capital (\\(k_t\\) i \\(k_{t+1}\\)) El capital representa l’acumulació de béns físics (màquines, edificis, ordinadors) que s’utilitzen per produir. És una variable d’estoc, la qual cosa vol dir que es mesura en un moment concret del temps (al principi del període \\(t\\)). El model assumeix que el capital estalviat avui no es pot fer servir immediatament. La inversió feta en \\(t\\) es converteix en capital productiu en \\(t+1\\).\nLa Depreciació (\\(\\delta\\)) El paràmetre \\(\\delta \\in (0,1)\\) és la taxa de depreciació física. Representa la pèrdua de valor i eficiència del capital a causa de l’ús, el pas del temps i l’obsolescència tecnològica. Si una empresa no inverteix res (\\(i_t=0\\)), el seu capital no es manté constant, sinó que es redueix geomètricament a una taxa \\(\\delta\\).\nLa Inversió (\\(i_t\\)) La inversió és la variable de flux. Representa la quantitat de producció actual (\\(y_t\\)) que no es consumeix, sinó que es destina a crear nou capital.\nFixem-nos que per fer créixer l’economia (\\(k_{t+1} &gt; k_t\\)), la inversió bruta (\\(i_t\\)) ha de ser superior a la depreciació del capital existent (\\(\\delta k_t\\)). Si \\(i_t = \\delta k_t\\), l’economia es troba en un estat estacionari on només es reposa el que es desprecia.\n\nEn resum, l’equació (Equation 3.3) és fonamental perquè és el mecanisme que permet a les famílies traslladar riquesa del present al futur. Sense capital ni inversió, no hi hauria manera d’estalviar per “suavitzar” el consum davant dels xocs.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#les-famílies",
+    "href": "writing/02_model_rbc.html#les-famílies",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.4 Les Famílies",
+    "text": "3.4 Les Famílies\nConsiderem una família representativa que valora dues coses: el consum (\\(c_t\\)) i l’oci.\nEl temps total disponible és 1. Per tant, si la família treballa \\(n_t\\) hores, el temps que li queda per descansar (oci) és \\((1 - n_t)\\).\nLa funció d’utilitat que farem servir serà la logarítmica. Les funcions d’utilitat han de ser creixents i còncaves per garantir que tant el consum com l’oci tinguin rendiments decreixents. La funció d’utilitat és:\n\\[\n\\max \\mathbb{E}_0 \\sum_{t=0}^{\\infty} \\beta^t \\left[ \\ln(c_t) + \\gamma \\ln(1 - n_t) \\right]\n\\tag{3.4}\\]\nOn: - \\(\\beta\\): Factor de descompte. Quant més valorem el consum present respecte al futur, més petit és \\(\\beta\\). - \\(\\gamma\\): Pes que li donem a l’oci respecte al consum. - \\(\\ln(1-n_t)\\): Utilitat de l’oci. Com més treballem, menys oci tenim i menys utilitat.\nLa família té una restricció pressupostària: els seus ingressos (salaris i rendes del capital) han de cobrir el consum i la inversió neta:\n\\[\nc_t + \\underbrace{k_{t+1} - (1-\\delta)k_t}_{\\text{Inversió } i_t} = w_t n_t + r_t k_t\n\\tag{3.5}\\]\nÉs a dir, les famílies guanyen diners treballant (\\(w_t n_t\\)) i invertint el seu capital (\\(r_t k_t\\)), i aquests diners els gasten en consumir (\\(c_t\\)) o en invertir per al futur (\\(i_t\\)).\nAquest problema es resol fent l’operador lagrangià i obtenint les condicions d’optimalitat:\n\\[\n\\mathcal{L} = \\sum_{t=0}^{\\infty} \\beta^t \\left[ \\ln(c_t) + \\gamma \\ln(1 - n_t) + \\lambda_t (w_t n_t + r_t k_t - c_t - k_{t+1} + (1-\\delta)k_t) \\right]\n\\] \\[\nd\\mathcal{L}/dc_t = 0 \\Rightarrow \\lambda_t = \\frac{1}{c_t}\n\\] \\[\nd\\mathcal{L}/dn_t = 0 \\Rightarrow \\frac{\\gamma c_t}{1 - n_t} = w_t\n\\tag{3.6}\\]\n\\[\nd\\mathcal{L}/dk_{t+1} = 0 \\Rightarrow \\lambda_t = \\beta \\lambda_{t+1} (r_{t+1} + 1 - \\delta) \\Rightarrow \\frac{1}{c_t} = \\beta \\mathbb{E}_t \\left[ \\frac{r_{t+1} + 1 - \\delta}{c_{t+1}} \\right]\n\\tag{3.7}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#solució-del-model-i-estratègia-destimació",
+    "href": "writing/02_model_rbc.html#solució-del-model-i-estratègia-destimació",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.6 Solució del Model i Estratègia d’Estimació",
+    "text": "3.6 Solució del Model i Estratègia d’Estimació\nEl model RBC queda completament definit pel sistema d’equacions que hem derivat en les seccions anteriors. Formalment, un equilibri competitiu és una seqüència de variables que satisfà simultàniament:\n\nL’Equació d’Euler (Equation 3.7), que determina la dinàmica de consum i estalvi.\nL’oferta de treball o equilibri intratemporal (Equation 3.6).\nLa tecnologia de producció (Equation 3.1) i els preus dels factors.\nLa restricció de recursos (Equation 3.2) i l’acumulació de capital (Equation 3.3).\nEl procés exogen del xoc tecnològic (Equation 3.8).\n\n\n3.6.1 El Problema de les Funcions de Política\nA diferència d’un sistema d’equacions lineals simple, aquest model no té una solució analítica tancada. No podem aïllar \\(c_t\\) o \\(n_t\\) a l’esquerra de la igualtat només amb paper i llapis. Això es deu a dues raons: 1. No linealitat: L’equació d’Euler inclou termes com \\(1/c_t\\), i la producció té exponents fraccionaris. 2. Expectatives Racionals: Les decisions d’avui depenen de les expectatives sobre el futur (\\(\\mathbb{E}_t\\)), però el futur depèn de les decisions d’avui.\nPer “resoldre” el model, el que busquem són les anomenades Funcions de Política (Policy Functions). Aquestes funcions són regles de decisió que ens diuen què ha de fer l’agent donat l’estat de l’economia:\n\\[\nc_t = \\Psi_c(k_t, A_t)\n\\] \\[\nn_t = \\Psi_n(k_t, A_t)\n\\]\nOn \\((k_t, A_t)\\) són les variables d’estat (el que ja tenim quan ens llevem al matí) i \\((c_t, n_t)\\) són les variables de control (el que decidim).\nTrobar la forma exacta d’aquestes funcions \\(\\Psi(\\cdot)\\) és impossible analíticament. Per tant, hem d’utilitzar mètodes numèrics per aproximar-les. En aquest TFG compararem dos enfocaments radicalment diferents:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  },
+  {
+    "objectID": "writing/02_model_rbc.html#resum-del-model",
+    "href": "writing/02_model_rbc.html#resum-del-model",
+    "title": "3  El Model de Cicles Reals (RBC)",
+    "section": "3.7 Resum del Model",
+    "text": "3.7 Resum del Model\nPer finalitzar la descripció teòrica, presentem un resum de totes les variables i paràmetres que conformen el model RBC. Aquesta classificació és fonamental per al procés d’estimació que es durà a terme en els següents capítols.\n\n3.7.1 Paràmetres Estructurals (\\(\\Theta\\))\nAquests són els valors constants que governen el comportament dels agents i la tecnologia. L’objectiu principal d’aquest treball serà estimar el vector \\(\\Theta\\) (o calibrar-ne una part).\n\n\n\nTable 3.1: Paràmetres Estructurals del Model RBC\n\n\n\n\n\n\n\n\n\n\n\nSímbol\nDescripció\nRang Teòric\nInterpretació Econòmica\n\n\n\n\n\\(\\beta\\)\nFactor de descompte\n\\((0, 1)\\)\nPaciència (relacionat amb el tipus d’interès real d’estat estacionari).\n\n\n\\(\\alpha\\)\nElasticitat del capital\n\\((0, 1)\\)\nParticipació del capital en la renda nacional (quota de beneficis).\n\n\n\\(\\delta\\)\nTaxa de depreciació\n\\((0, 1)\\)\nVelocitat a la qual el capital físic es desgasta o es torna obsolet.\n\n\n\\(\\gamma\\)\nPes de l’oci\n\\(\\gamma &gt; 0\\)\nPreferència relativa per l’oci enfront del consum.\n\n\n\\(\\rho\\)\nPersistència del xoc\n\\((-1, 1)\\)\nMemòria del cicle econòmic (durada dels booms/recessions).\n\n\n\\(\\sigma_\\epsilon\\)\nVolatilitat del xoc\n\\(\\sigma_\\epsilon &gt; 0\\)\nMagnitud o desviació estàndard de les innovacions tecnològiques.\n\n\n\n\n\n\n\n\n3.7.2 Variables del Sistema\nDistingim entre les variables que prenen els agents com a donades (estat) i les que decideixen (control), així com aquelles que podem mesurar en la realitat.\n\n\n\nTable 3.2: Classificació de Variables del Model\n\n\n\n\n\n\n\n\n\n\n\nTipus\nSímbol\nDescripció\nObservabilitat\n\n\n\n\nVariables d’Estat\n\\(k_t\\)\nEstoc de Capital (inici del període)\nNo observable (habitualment)\n\n\n\n\\(A_t\\)\nNivell de Tecnologia (TFP)\nNo observable (latent)\n\n\nVariables de Control\n\\(c_t\\)\nConsum privat per càpita\nObservable\n\n\n\n\\(n_t\\)\nHores treballades per càpita\nObservable\n\n\n\n\\(i_t\\)\nInversió bruta per càpita\nObservable\n\n\nVariables de Preus\n\\(w_t\\)\nSalari real per hora\nObservable\n\n\n\n\\(r_t\\)\nRendiment del capital (lloguer)\nObservable (aprox. via tipus d’interès)\n\n\nVariable Exògena\n\\(\\epsilon_t\\)\nInnovació (Soroll blanc)\nNo observable\n\n\n\n\n\n\nAmb el model teòric completament especificat, el següent capítol abordarà el repte de com resoldre el sistema d’equacions no lineals i com estimar els paràmetres desconeguts (\\(\\Theta\\)) a partir de les variables observables.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>El Model de Cicles Reals (RBC)</span>"
+    ]
+  }
+]

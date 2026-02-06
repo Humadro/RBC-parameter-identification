@@ -1,0 +1,23 @@
+# 1. Introducción
+
+# 2. Modelo RBC
+
+# 3. Metodologías
+
+# 4. RBC - Datos simulados
+## 4.1 Simulación del modelo
+## 4.2 Estimación bayesiana de los parámetros
+## 4.3 Estimación xxx de los parámetros
+
+# 5. RBC - Datos reales
+## 5.1 Obtención de los datos
+## 5.2 Estimación bayesiana de los parámetros
+## 5.3 Estimación xxx de los parámetros
+
+# 6. Selección del método
+
+# 7. Modelo NK
+### 7.1 Descripción del modelo
+### 7.2 Estimación de los parámetros del modelo NK
+
+# 8. Conclusiones

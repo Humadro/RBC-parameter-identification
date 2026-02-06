@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Estimació de models DSGE"
+  author: "Hugo Madrid Rodríguez"
+  date: today
+  language: ca
+  chapters:
+    - index.qmd
+    - writing/01_intro.qmd
+    - writing/02_model_rbc.qmd
+    - writing/03_metodologies.qmd
+    - writing/04_1_simulacio.qmd
+    - writing/04_2_bayes_sim.qmd
+    - writing/04_3_other_sim.qmd
+    - writing/05_1_datos.qmd
+    - writing/05_2_bayes_dat.qmd
+    - writing/05_3_other_dat.qmd
+    - writing/06_seleccion.qmd
+    - writing/07_1_nk.qmd
+    - writing/07_2_nk_estim.qmd
+    - writing/08_conclusiones.qmd
+    - writing/99_referencias.qmd
+
+
+bibliography: refs.bib  # Tu archivo generado por Better BibTeX
+
+format:
+  html:
+    theme: journal      # Estilo académico clásico (Serif)
+    toc: true           # Tabla de contenidos a la izquierda
+    toc-depth: 3
+    number-sections: true # 1. Introducción, 1.1...
+    
+    # CONFIGURACIÓN DE CÓDIGO (Lo que pediste)
+    echo: false         # Oculta el código fuente por defecto
+    warning: false      # Oculta advertencias de Python/R
+    message: false      # Oculta mensajes de carga de librerías
+    
+    # MATEMÁTICAS
+    html-math-method: mathjax
