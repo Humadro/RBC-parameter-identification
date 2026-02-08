@@ -338,8 +338,10 @@ d\mathcal{L}/dc_t = 0 \Rightarrow \lambda_t = \frac{1}{c_t}
 \]</span> <span id="eq-labor"><span class="math display">\[
 d\mathcal{L}/dn_t = 0 \Rightarrow \frac{\gamma c_t}{1 - n_t} = w_t
 \tag{3.6}\]</span></span></p>
-<p><span id="eq-euler"><span class="math display">\[
-d\mathcal{L}/dk_{t+1} = 0 \Rightarrow \lambda_t = \beta \lambda_{t+1} (r_{t+1} + 1 - \delta) \Rightarrow \frac{1}{c_t} = \beta \mathbb{E}_t \left[ \frac{r_{t+1} + 1 - \delta}{c_{t+1}} \right]
+<p><span class="math display">\[
+d\mathcal{L}/dk_{t+1} = 0 \Rightarrow \lambda_t = \beta \lambda_{t+1} (r_{t+1} + 1 - \delta)
+\]</span> <span id="eq-euler"><span class="math display">\[
+\Rightarrow \frac{1}{c_t} = \beta \mathbb{E}_t \left[ \frac{r_{t+1} + 1 - \delta}{c_{t+1}} \right]
 \tag{3.7}\]</span></span></p>
 </section>
 <section id="el-xoc-tecnològic" class="level2" data-number="3.5">
@@ -361,7 +363,11 @@ d\mathcal{L}/dk_{t+1} = 0 \Rightarrow \lambda_t = \beta \lambda_{t+1} (r_{t+1} +
 </ol>
 <section id="el-problema-de-les-funcions-de-política" class="level3" data-number="3.6.1">
 <h3 data-number="3.6.1" class="anchored" data-anchor-id="el-problema-de-les-funcions-de-política"><span class="header-section-number">3.6.1</span> El Problema de les Funcions de Política</h3>
-<p>A diferència d’un sistema d’equacions lineals simple, aquest model <strong>no té una solució analítica tancada</strong>. No podem aïllar <span class="math inline">\(c_t\)</span> o <span class="math inline">\(n_t\)</span> a l’esquerra de la igualtat només amb paper i llapis. Això es deu a dues raons: 1. <strong>No linealitat:</strong> L’equació d’Euler inclou termes com <span class="math inline">\(1/c_t\)</span>, i la producció té exponents fraccionaris. 2. <strong>Expectatives Racionals:</strong> Les decisions d’avui depenen de les expectatives sobre el futur (<span class="math inline">\(\mathbb{E}_t\)</span>), però el futur depèn de les decisions d’avui.</p>
+<p>A diferència d’un sistema d’equacions lineals simple, aquest model <strong>no té una solució analítica tancada</strong>. No podem aïllar <span class="math inline">\(c_t\)</span> o <span class="math inline">\(n_t\)</span> a l’esquerra de la igualtat només amb paper i llapis. Això es deu a dues raons:</p>
+<ol type="1">
+<li><p><strong>No linealitat:</strong> L’equació d’Euler inclou termes com <span class="math inline">\(1/c_t\)</span>, i la producció té exponents fraccionaris.</p></li>
+<li><p><strong>Expectatives Racionals:</strong> Les decisions d’avui depenen de les expectatives sobre el futur (<span class="math inline">\(\mathbb{E}_t\)</span>), però el futur depèn de les decisions d’avui.</p></li>
+</ol>
 <p>Per “resoldre” el model, el que busquem són les anomenades <strong>Funcions de Política</strong> (Policy Functions). Aquestes funcions són regles de decisió que ens diuen què ha de fer l’agent donat l’estat de l’economia:</p>
 <p><span class="math display">\[
 c_t = \Psi_c(k_t, A_t)

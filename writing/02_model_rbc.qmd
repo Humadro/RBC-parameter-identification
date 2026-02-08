@@ -98,7 +98,10 @@ d\mathcal{L}/dn_t = 0 \Rightarrow \frac{\gamma c_t}{1 - n_t} = w_t
 $$ {#eq-labor}
 
 $$
-d\mathcal{L}/dk_{t+1} = 0 \Rightarrow \lambda_t = \beta \lambda_{t+1} (r_{t+1} + 1 - \delta) \Rightarrow \frac{1}{c_t} = \beta \mathbb{E}_t \left[ \frac{r_{t+1} + 1 - \delta}{c_{t+1}} \right]
+d\mathcal{L}/dk_{t+1} = 0 \Rightarrow \lambda_t = \beta \lambda_{t+1} (r_{t+1} + 1 - \delta)
+$$
+$$
+\Rightarrow \frac{1}{c_t} = \beta \mathbb{E}_t \left[ \frac{r_{t+1} + 1 - \delta}{c_{t+1}} \right]
 $${#eq-euler}
 
 ## El Xoc Tecnològic
@@ -122,7 +125,9 @@ El model RBC queda completament definit pel sistema d'equacions que hem derivat 
 ### El Problema de les Funcions de Política
 
 A diferència d'un sistema d'equacions lineals simple, aquest model **no té una solució analítica tancada**. No podem aïllar $c_t$ o $n_t$ a l'esquerra de la igualtat només amb paper i llapis. Això es deu a dues raons:
+
 1.  **No linealitat:** L'equació d'Euler inclou termes com $1/c_t$, i la producció té exponents fraccionaris.
+
 2.  **Expectatives Racionals:** Les decisions d'avui depenen de les expectatives sobre el futur ($\mathbb{E}_t$), però el futur depèn de les decisions d'avui.
 
 Per "resoldre" el model, el que busquem són les anomenades **Funcions de Política** (Policy Functions). Aquestes funcions són regles de decisió que ens diuen què ha de fer l'agent donat l'estat de l'economia:
